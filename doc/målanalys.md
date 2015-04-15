@@ -68,6 +68,20 @@ företagets största fokus, utan hälst vill företaget gå jämnt ut.
 Eventuella konflikter mellan målen
 ----------------------------------
 
+En konflikt är mellan ovetande mustälskare och extrema mustälskare är den att
+extrema mustälskare gärna vill kritisera must av lägre kvalité medans ovetande
+mustälskare vill förstå vad det är som gör must så mystiskt. Det betyder at
+ovetande mustälskare kan kommas att skrämmas iväg av de mer erfarna
+mustentusiasterna som endast tänker högt om exklusiva muster, som är väldigt
+svåra att få tag på för den ovetande och oerfarne.
+
+ 
+
+Då extrema mustälskare redan har stor erfarenhet av vad som finns på marknaden
+så kan företagets reklam, som enbart består av must erbjudande, rakt av bli
+irriterande. Däremot anser ovetande mustälskare att det är en gyllene chans för
+de att lära sig mer om det stora sortiment som finns tillgängligt.
+
  
 
 Lärdomar & reflektioner
