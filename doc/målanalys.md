@@ -56,8 +56,19 @@ Målgrupper och deras mål
 Företagets mål
 --------------
 
+It’s a must! vill etablera en ny funktion för den redan existerande
+mustgemenskapen. Med hjälp av en social platform så har företaget bestämt sig
+för att ta det annars lokala mustpratandet till en nationell nivå. En stor
+händelse som berör mustentusiaster på en emotionell nivå. It’s a must! vill
+driva sin verksamhet som en idell verksamhet vilket medför att pengar inte är
+företagets största fokus, utan hälst vill företaget gå jämnt ut.
+
+ 
+
 Eventuella konflikter mellan målen
 ----------------------------------
+
+ 
 
 Lärdomar & reflektioner
 -----------------------
