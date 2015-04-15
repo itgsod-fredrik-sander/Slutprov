@@ -81,7 +81,7 @@ För att lösa denna konflikt behöver man kunna identifiera de mer extrema
 mustentusiasterna. Detta är möjligt genom deras anvädningsstatistik. Genom att
 göra de extrema mustentusiasterna identifierbara av mustgemenskapen så kommer de
 att kunna läsa recensioner från dessa personer med kritiskt. Möjligen kan
-ovetande mustälskare även välja att sortera must recensioner från personer
+ovetande mustälskare även välja att sortera efter must recensioner från personer
 enbart i sin egna målgrupp.
 
  
