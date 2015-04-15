@@ -77,6 +77,15 @@ svåra att få tag på för den ovetande och oerfarne.
 
  
 
+För att lösa denna konflikt behöver man kunna identifiera de mer extrema
+mustentusiasterna. Detta är möjligt genom deras anvädningsstatistik. Genom att
+göra de extrema mustentusiasterna identifierbara av mustgemenskapen så kommer de
+att kunna läsa recensioner från dessa personer med kritiskt. Möjligen kan
+ovetande mustälskare även välja att sortera must recensioner från personer
+enbart i sin egna målgrupp.
+
+ 
+
 Då extrema mustälskare redan har stor erfarenhet av vad som finns på marknaden
 så kan företagets reklam, som enbart består av must erbjudande, rakt av bli
 irriterande. Däremot anser ovetande mustälskare att det är en gyllene chans för
@@ -84,10 +93,8 @@ de att lära sig mer om det stora sortiment som finns tillgängligt.
 
  
 
-Lärdomar & reflektioner
------------------------
-
-Utvecklingsområden
-------------------
+En lösning för ovanstående problem skulle vara att gömma reklamen för extrema
+mustälskare. Då det är möjligt att spara deras användningsstatistik blir det
+lätt att identifiera denna målgrupp.
 
  
