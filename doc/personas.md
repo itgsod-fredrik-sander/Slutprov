@@ -53,10 +53,10 @@ genast pumpa och för honom känns det som att hans bröstkorg är på väg att
 explodera. Genast tar han upp sin mobiltelefon för att lugna ner sig, men det
 visar sig att det inte hjälper honom. Robert minns då att han hade glömt skriva
 sin dagliga recension. Snabbt öppnar han mobil webbläsaren och går in på It’s a
-must! där han loggar in. Han kommer till startsidan där han ser en lista på alla
-recenserade muster och väljer en som han känner igen. Robert hittar en must som
-han ännu inte har recenserat och skriver ett negativt inlägg tillsammans med ett
-lågt betyg.
+must! där han loggar in genom att fylla i sitt användarnamn och lösenord. Han
+kommer till startsidan där han ser en lista på alla muster och väljer en som han
+känner igen. Robert hittar en must som han ännu inte har recenserat och skriver
+ett negativt inlägg tillsammans med ett lågt betyg.
 
  
 
@@ -90,10 +90,11 @@ anländer Mira till sin lägenhet och väl där känner hon suget inom sig. En k
 som etablerat sig på den mystik som must resonerar och den nyfikenhet samt
 positiva attityd Mira besitter. Mira öppnar snabbt sin dator för att hitta
 information om HarzenMuster must. Mira anländer snabbt till It’s a must där hon
-hittar HarzenMuster must. Hon läser sedan mängder av kommentarer och kollar på
-det betyg som musten har fått. Mira stänger av sin dator och beslutar sig för
-att testa must nästa gång hon går till Caféet med sina vänner tack vare den nya
-information hon har fått.
+hittar HarzenMuster must. Hon läser sedan mängder av recensioner och kollar på
+det betyg som musten har fått. Utöver detta noterar hon även årtal samt
+paketeringsform. Mira stänger av sin dator och beslutar sig för att testa must
+nästa gång hon går till Caféet med sina vänner tack vare den nya information hon
+har fått.
 
  
 
@@ -107,5 +108,7 @@ raritet, en HarzerMuster special must i glasflaska. Ett par timmar passerar och
 Mira sitter nu på bussen på väg hem. Hon tar upp mobilen, loggar in på sitt
 tidigare registrerade konto och kommer till startsidan. Väl där klickar hon på
 must och söker efter märket på musten som hon drack tidigare. Mira hittar musten
-och klickar vidare till recensioner där hon delar med sig sin erfarenhet som
-blivande mustälskare.
+och klickar “View” sedan går hon vidare till recensioner där hon delar med sig
+sin erfarenhet som blivande mustälskare genom att klicka på knappen “Write a
+review!”, ett nytt fält öppnas och hon fyller i titeln, skriver en recension och
+ger musten ett betyg på 4. Sedan klickar hon “Submit review”.
