@@ -24,32 +24,44 @@ Fredrik Sander, sekreterare och projektledare.
 Målgrupper och deras mål
 ------------------------
 
-+----------------------+------------------------------------------+------------------------------------------+
-| Målgrupp             |                                          | Mål                                      |
-+----------------------+------------------------------------------+------------------------------------------+
-| Ovetande mustälskare | Ovetande mustälskare är personer som     | Lära sig mer om must och dess breda      |
-|                      | ännu inte är medvetna om deras fallenhet | sortiment. Vill även förstå vad det är   |
-|                      | för must på grund av det breda           | som gör must så mystiskt.                |
-|                      | sortimentet som numera finns. Personer i |                                          |
-|                      | denna målgrupp vill lära sig mer om must |                                          |
-|                      | innan de vågar testa denna högt talande  |                                          |
-|                      | och spökande dryck.                      |                                          |
-+----------------------+------------------------------------------+------------------------------------------+
-| Blivande mustälskare | Detta är en målgrupp som tillhör de      | Hitta nya fantastiska mustdrycker.       |
-|                      | personer som ännu inte vet vart de       | Utöver detta vill de dela med sig av sin |
-|                      | befinner sig inom mustvärlden. De har    | växande kunskap inom ämnet med den redan |
-|                      | tidigare stött på sin fallenhet för must | etablerade mustgemenskapen.              |
-|                      | men vet inte vilken riktning de vill     |                                          |
-|                      | driva sitt törstande intresse mot.       |                                          |
-+----------------------+------------------------------------------+------------------------------------------+
-| Extrema mustälskare  | Dessa personer letar bara efter den      | Dela med sig av sina upplevelser med     |
-|                      | finaste och mustigaste smaken tack vare  | exklusiv must. Vill även kunna kritisera |
-|                      | deras stora erfarenhet inom området.     | must av lägre kvalité.                   |
-|                      | Självklart vill de även dela med sig av  |                                          |
-|                      | sin stora kunskap och gärna kritisera de |                                          |
-|                      | drycker som anses mindre fina inom       |                                          |
-|                      | mutsgemenskapen.                         |                                          |
-+----------------------+------------------------------------------+------------------------------------------+
+### Ovetande mustälskare
+
+Ovetande mustälskare är personer som ännu inte är medvetna om deras fallenhet
+för must på grund av det breda sortimentet som numera finns. Personer i denna
+målgrupp vill lära sig mer om must innan de vågar testa denna högt talande och
+spökande dryck.
+
+### Mål
+
+Lära sig mer om must och dess breda sortiment. Vill även förstå vad det är som
+gör must så mystiskt.
+
+ 
+
+### Blivande mustälskare
+
+Detta är en målgrupp som tillhör de personer som ännu inte vet vart de befinner
+sig inom mustvärlden. De har tidigare stött på sin fallenhet för must men vet
+inte vilken riktning de vill driva sitt törstande intresse mot.
+
+### Mål
+
+Hitta nya fantastiska mustdrycker. Utöver detta vill de dela med sig av sin
+växande kunskap inom ämnet med den redan etablerade mustgemenskapen.
+
+ 
+
+### Extrema mustälskare
+
+Dessa personer letar bara efter den finaste och mustigaste smaken tack vare
+deras stora erfarenhet inom området. Självklart vill de även dela med sig av sin
+stora kunskap och gärna kritisera de drycker som anses mindre fina inom
+mutsgemenskapen.
+
+### Mål
+
+Dela med sig av sina upplevelser med exklusiv must. Vill även kunna kritisera
+must av lägre kvalité.
 
  
 
