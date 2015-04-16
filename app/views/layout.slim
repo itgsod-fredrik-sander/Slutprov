@@ -5,6 +5,31 @@ html
     link rel='stylesheet' type='text/css' href='/css/bootstrap.css'
     link rel='stylesheet' type='text/css' href='/css/design.css'
   body
+    - if session[:user_id]
+      nav.navbar.navbar-default
+        .container-fluid
+          .navbar-header
+            button.navbar-toggle.collapsed data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button" 
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a.navbar-brand href="/home" It is a must!
+          #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            ul.nav.navbar-nav
+              li.active
+              li
+                a href="/home"  Home
+              li.dropdown
+                a.dropdown-toggle aria-expanded="false" data-toggle="dropdown" href="#" role="button" 
+                  | Must
+                  span.caret
+                ul.dropdown-menu role="menu" 
+                  li
+                    a href="/list"  List
+                  li
+                    a href="/search"  Search
+
     == yield
     script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'
     script src='js/bootstrap.js'
