@@ -21,7 +21,7 @@ describe User do
 
   describe 'rating' do 
     it 'should calculate the correct rating' do 
-      expect( @must.calculate_rating ).eq 3.5
+      expect( Must.calculate_rating(@must) ).to eq 3.5
     end
   end
 

@@ -10,4 +10,10 @@ class Must
   property :location, String
 
   has n, :reviews
+
+  def self.calculate_rating(must)
+    sum, divider = 0, must.reviews.size
+    must.reviews.each {|review| sum += review.rating}
+    sum/divider.to_f
+  end
 end
