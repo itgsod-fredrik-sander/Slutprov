@@ -18,4 +18,14 @@ describe User do
 
   end
 
+  describe 'login' do 
+    it 'should login the user' do 
+      expect( User.login({username: 'Mira', password: '123'}) ).to eq true
+    end
+
+    it 'should not login the user' do 
+      expect( User.login({username: 'Midfasdf', password: '12asdfasdf3'}) ).to eq false
+    end
+  end
+
 end

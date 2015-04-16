@@ -6,4 +6,9 @@ class User
   property :password, BCryptHash, :required => true
 
   has n, :reviews
-end
+
+  def self.login(params)
+    @user = User.first(:username => params[:username])
+    @user && @user.password == params[:password] ? true : false
+  end
+end 
