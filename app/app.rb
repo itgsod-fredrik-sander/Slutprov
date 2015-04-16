@@ -13,4 +13,8 @@ class App < Sinatra::Base
     
     redirect '/'
   end
+
+  get '/home' do 
+    slim :home
+  end
 end
