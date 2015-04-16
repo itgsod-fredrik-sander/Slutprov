@@ -19,10 +19,11 @@ class App < Sinatra::Base
   end
 
   get '/list' do 
+    @musts = Must.all 
     slim :list
   end
 
-  get '/search' do 
+  get '/search' do
     slim :search
   end
 end

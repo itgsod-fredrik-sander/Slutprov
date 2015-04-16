@@ -1,0 +1,18 @@
+table.table.table-striped.table-hover
+  thead
+    tr
+      th Name
+      th Brand
+      th Manufacturer
+      th Package
+      th Year
+      th Reviewed
+  tbody
+    - for must in @musts
+      tr class='info'
+        td #{must.name}
+        td #{must.brand}
+        td #{must.manufacturer}
+        td #{must.package}
+        td #{must.year}
+        td False
