@@ -5,3 +5,6 @@ p = "Year: #{@must.year}"
 p = "Manufacturer: #{@must.manufacturer}"
 p = "Package: #{@must.package}"
 
+- for review in @must.reviews
+  h2 = "#{review.title}   :  #{review.rating}"
+  p = review.content
