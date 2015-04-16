@@ -9,7 +9,7 @@ p = "Package: #{@must.package}"
   h2 = "#{review.title}   :  #{review.rating}"
   p = review.content
 
-form action='/new/review' method='post'
+form action="/new/review/#{@must.id}" method='post'
   .input-group
     input.form-control type='text' placeholder='Title' name='title'
     input.form-control type='text' placeholder='Content' name='content'

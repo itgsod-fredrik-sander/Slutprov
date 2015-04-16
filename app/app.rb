@@ -33,7 +33,8 @@ class App < Sinatra::Base
     slim :must
   end
 
-  post '/new/review' do 
-
+  post '/new/review/:id' do |must_id|
+    Review.create(user_id: session[:user_id], must_id: must_id, title: params['title'], content: params['content'], rating: params['rating'])
+    redirect "/must/#{must_id}"
   end
 end
