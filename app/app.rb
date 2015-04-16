@@ -17,4 +17,12 @@ class App < Sinatra::Base
   get '/home' do 
     slim :home
   end
+
+  get '/list' do 
+    slim :list
+  end
+
+  get '/search' do 
+    slim :search
+  end
 end
