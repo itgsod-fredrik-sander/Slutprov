@@ -27,4 +27,9 @@ class App < Sinatra::Base
   get '/search' do
     slim :search
   end
+
+  get '/must/:id' do |id|
+    @must = Must.get(id)
+    slim :must
+  end
 end
