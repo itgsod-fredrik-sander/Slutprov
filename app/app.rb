@@ -32,4 +32,8 @@ class App < Sinatra::Base
     @must = Must.get(id)
     slim :must
   end
+
+  post '/new/review' do 
+
+  end
 end
