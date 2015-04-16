@@ -1,3 +1,5 @@
 .idea/**
 
 app/db/app-dev.sqlite
+
+app/db/app-dev.sqlite
