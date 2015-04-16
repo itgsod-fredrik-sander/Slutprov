@@ -1,6 +1,7 @@
 table.table.table-striped.table-hover
   thead
     tr
+      th
       th Name
       th Brand
       th Manufacturer
@@ -10,9 +11,11 @@ table.table.table-striped.table-hover
   tbody
     - for must in @musts
       tr class='info'
+        td
+          a.btn.btn-default href="/must/#{must.id}" View now!
         td #{must.name}
         td #{must.brand}
         td #{must.manufacturer}
         td #{must.package}
         td #{must.year}
-        td False
+        td = @user.reviews.must.include? must

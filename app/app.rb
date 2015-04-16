@@ -7,8 +7,8 @@ class App < Sinatra::Base
 
   post '/login' do 
     if User.login(params)
+      session[:user_id] = User.first(:username => params[:username]).id
       redirect '/home'
-      session[:user_id] = User.first(:username => params[:username])
     end
     
     redirect '/'
@@ -19,6 +19,7 @@ class App < Sinatra::Base
   end
 
   get '/list' do 
+    @user = User.get(session[:user_id])
     @musts = Must.all 
     slim :list
   end
