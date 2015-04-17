@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $('#must-list').DataTable();
+    toggleVisibility($('#new-review'));
 });
 
 $('#review-toggler').click(function() {
