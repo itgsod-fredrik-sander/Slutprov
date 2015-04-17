@@ -16,3 +16,14 @@
   top:0px;
   z-index:-1;
 }
+
+#header .jumbotron {
+  background-color:transparent;
+  text-align:center;
+  color:white;
+}
+
+.jumbotron .btn-primary {
+  background-color:transparent;
+  border-color:white;
+}
