@@ -4,6 +4,7 @@ html
     meta name='viewport' content='width=device-width, initial-scale=1'
     link rel='stylesheet' type='text/css' href='/css/bootstrap.css'
     link rel='stylesheet' type='text/css' href='/css/design.css'
+    link rel='stylesheet' type='text/css' href='/css/jquery.dataTables.min.css'
   body
     - if session[:user_id]
       nav.navbar.navbar-default
@@ -33,3 +34,5 @@ html
     == yield
     script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'
     script src='js/bootstrap.js'
+    script src='js/jquery.dataTables.min.js'
+    script src='js/functionality.js'
