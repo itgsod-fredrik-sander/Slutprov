@@ -6,8 +6,8 @@
 #header {
   padding:0;
   height:350px;
+  margin-bottom:40px;
   overflow:hidden;
-  padding:0;
 }
 
 #background {
@@ -26,4 +26,8 @@
 .jumbotron .btn-primary {
   background-color:transparent;
   border-color:white;
+}
+
+#features i {
+  margin-bottom:20px;
 }
