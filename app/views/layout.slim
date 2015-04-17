@@ -2,6 +2,7 @@ doctype html
 html
   head
     meta name='viewport' content='width=device-width, initial-scale=1'
+    / Loads in the stylesheets we need
     link rel='stylesheet' type='text/css' href='/css/bootstrap.css'
     link rel='stylesheet' type='text/css' href='/css/design.css'
     link rel='stylesheet' type='text/css' href='/css/jquery.dataTables.min.css'
@@ -27,6 +28,7 @@ html
                 a href='/list' Musts
 
     == yield
+    / Loads in all the scripts
     script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'
     script src='/js/bootstrap.js'
     script src='/js/jquery.dataTables.min.js'
