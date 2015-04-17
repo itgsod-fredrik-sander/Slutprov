@@ -28,12 +28,6 @@ class App < Sinatra::Base
     slim :search
   end
 
-  get '/search/must' do 
-    @user = User.get(session[:user_id])
-    @musts = Must.all(name: params['name'], manufacturer: params['manufacturer'], year: params['year'])
-    slim :list
-  end
-
   get '/must/:id' do |id|
     @must = Must.get(id)
     slim :must
