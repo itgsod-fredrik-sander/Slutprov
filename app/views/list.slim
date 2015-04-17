@@ -10,9 +10,9 @@ table#must-list.table.table-striped.table-hover
       th Reviewed
   tbody
     - for must in @musts
-      tr class='info'
+      tr
         td
-          a.btn.btn-default href="/must/#{must.id}" View now!
+          a.btn.btn-primary href="/must/#{must.id}" View now!
         td #{must.name}
         td #{must.brand}
         td #{must.manufacturer}
