@@ -1,23 +1,24 @@
-table#must-list.table.table-striped.table-hover
-  thead
-    tr
-      th
-      th Name
-      th Brand
-      th Manufacturer
-      th Package
-      th Year
-      th Reviewed
-  tbody
-    - for must in @musts
+.col-md-12
+  table#must-list.table.table-striped.table-hover
+    thead
       tr
-        td
-          a.btn.btn-primary href="/must/#{must.id}" 
-            |View now
-            li.fa.fa-arrow-right
-        td #{must.name}
-        td #{must.brand}
-        td #{must.manufacturer}
-        td #{must.package}
-        td #{must.year}
-        td = @user.reviews.must.include? must
+        th
+        th Name
+        th Brand
+        th Manufacturer
+        th Package
+        th Year
+        th Reviewed
+    tbody
+      - for must in @musts
+        tr
+          td
+            a.btn.btn-primary href="/must/#{must.id}" 
+              |View now
+              li.fa.fa-arrow-right
+          td #{must.name}
+          td #{must.brand}
+          td #{must.manufacturer}
+          td #{must.package}
+          td #{must.year}
+          td = @user.reviews.must.include? must
