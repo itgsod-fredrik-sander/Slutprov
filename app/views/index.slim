@@ -1,5 +1,17 @@
-form action='/login' method='post'
-  .input-group
-    input.form-control type='text' placeholder='username' name='username'
-    input.form-control type='password' placeholder='password' name='password'
-    button type='submit' Submit
+#login
+  .col-md-6.col-md-offset-3
+    .panel.panel-primary
+      .panel-heading.center-text
+        h2 Sign in to It's a must!
+      .panel-body
+        form action='/login' method='post'
+          .input-group.col-md-12
+            .input-group
+              span.input-group-addon
+                li.fa.fa-user.fa-1x
+              input.form-control type='text' placeholder='username' name='username'
+            .input-group
+              span.input-group-addon
+                li.fa.fa-lock
+              input.form-control type='password' placeholder='password' name='password'
+            button.btn.btn-primary.col-md-12 type='submit' Submit
