@@ -8,6 +8,7 @@
         th Manufacturer
         th Package
         th Year
+        th Popularity
         th Reviewed
     tbody
       - for must in @musts
@@ -21,4 +22,5 @@
           td #{must.manufacturer}
           td #{must.package}
           td #{must.year}
+          td = must.reviews.size
           td = @user.reviews.must.include? must
