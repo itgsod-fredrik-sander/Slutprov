@@ -46,6 +46,10 @@
   margin-top:70px;
 }
 
+#new-review {
+  display:none;
+}
+
 #new-review input, #new-review select {
   margin-bottom:10px;
 }
