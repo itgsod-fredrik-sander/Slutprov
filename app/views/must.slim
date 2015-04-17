@@ -1,12 +1,15 @@
 #must
   .col-md-12
+    / The leftmost div
     .col-md-4
       .col-md-12
+        / Panel presenting name and image
         .panel.panel-primary
           .panel-heading.center-text
             h2 = @must.name
           .panel-body.center-text
             li.fa.fa-picture-o.fa-5x
+        / Panel presenting must information
         .panel.panel-primary
           .panel-body
             p 
@@ -21,11 +24,13 @@
             p 
               li.fa.fa-gift.fa-2x
               |#{@must.package}
-
+        
+        / Write a review button panel
         .panel.panel-primary
           .panel-body
             #review-toggler.btn.btn-primary.col-md-12 Write a review!
         
+        / Write a review panel, hidden by default
         #new-review
           .panel.panel-primary
             .panel-body
@@ -42,9 +47,10 @@
                     option value='5' 5 
                   button.btn.btn-primary.col-md-12 type='submit' Submit
 
-
+    / The rightmost div
     .col-md-8
       .col-md-10.col-md-offset-1
+        /The panel containing must stats
         .panel.panel-primary
           .panel-body.center-text
             .col-md-4.col-md-offset-1
@@ -53,7 +59,8 @@
             .col-md-4.col-md-offset-1
               li.fa.fa-heart.fa-5x
               h1 = Must.calculate_rating(@must)
-
+        
+        / The div containing all the reviews
         .panel.panel-primary
           .panel-heading
             h2.center-text All Reviews

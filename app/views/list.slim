@@ -1,4 +1,6 @@
 .col-md-12
+  / Creates a table with ID #must-list
+  / DataTables is added to the table
   table#must-list.table.table-striped.table-hover
     thead
       tr
@@ -11,6 +13,7 @@
         th Popularity
         th Reviewed
     tbody
+      / For every must we add a new table row with the appropriate information
       - for must in @musts
         tr
           td
