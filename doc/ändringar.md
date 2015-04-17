@@ -6,7 +6,7 @@ erbjuder jag fortfarande samma funktionalitet som de två planerade sidorna
 skulle ha haft - fast i ett mycket bättre format. Dessutom blir sidan lättare
 att navigera för den oerfarne användaren då alternativen blir färre.
 
- 
+
 
 En mindre ändring som jag gjorde var min flyttning av ‘view’ knappen i tabellen
 som presenterar alla muster. Jag blev motiverad till detta beslut efter att jag
@@ -25,4 +25,10 @@ hemsida skummar denne ofta igenom sidan uppifrån och ner, om en knapp ligger
 längst ner på sidan under alla recensioner som användaren kanske skippar så är
 det en väldigt stor chans att användaren missar denna knapp. Därför flyttade jag
 knappen till en position under den viktigaste informationen om musterna vilket
-dramatiskt höjer chansen att användaren noterar denna knapp.
+dramatiskt höjer chansen att användaren noterar knappen.
+
+ 
+
+Tog även bort typot ‘User' på välkomst sidan.
+
+ 
