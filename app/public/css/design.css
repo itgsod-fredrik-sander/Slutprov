@@ -3,6 +3,10 @@
   border-radius:0;
 }
 
+.center-text {
+  text-align:center;
+}
+
 /* Home */
 #header {
   padding:0;
@@ -36,5 +40,8 @@
 /* Must */
 #must {
   margin-top:50px;
-  text-align:center;
+}
+
+.star-rating {
+  margin-top:70px;
 }
