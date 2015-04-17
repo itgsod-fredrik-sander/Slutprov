@@ -45,3 +45,7 @@
 .star-rating {
   margin-top:70px;
 }
+
+#new-review input, #new-review select {
+  margin-bottom:10px;
+}

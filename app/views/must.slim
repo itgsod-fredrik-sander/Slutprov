@@ -25,6 +25,23 @@
         .panel.panel-primary
           .panel-body
             .btn.btn-primary.col-md-12 Write a review!
+        
+        #new-review
+          .panel.panel-primary
+            .panel-body
+              h3.center-text Write a review
+              form action="/new/review/#{@must.id}" method='post'
+                .input-group
+                  input.form-control type='text' placeholder='Title' name='title'
+                  input.form-control type='text' placeholder='Content' name='content'
+                  select.form-control name='rating'
+                    option value='1' 1
+                    option value='2' 2
+                    option value='3' 3
+                    option value='4' 4
+                    option value='5' 5 
+                  button.btn.btn-primary.col-md-12 type='submit' Submit
+
 
     .col-md-8
       .col-md-10.col-md-offset-1
@@ -49,16 +66,3 @@
                 .col-md-10
                   h2.center-text = review.title
                   p.center-text = review.content
-
-
-form action="/new/review/#{@must.id}" method='post'
-  .input-group
-    input.form-control type='text' placeholder='Title' name='title'
-    input.form-control type='text' placeholder='Content' name='content'
-    select.form-control name='rating'
-      option value='1' 1
-      option value='2' 2
-      option value='3' 3
-      option value='4' 4
-      option value='5' 5 
-    button type='submit' Submit
