@@ -13,7 +13,16 @@ describe('Mustspage', :type => :feature) do
     @mustspage = Mustspage.new(page)
   end
 
-  it 'should contain musts' do 
+  it 'should contain musts in a table' do 
     expect( @mustspage ).to be_containing_musts
   end
-end
+
+  it 'should be searchable', :driver => :selenium do 
+    expect( @mustspage ).to be_searchable
+  end
+
+  it 'should redirect to different musts', :driver => :selenium do
+    expect( @mustspage ).to be_redirecting_to_musts
+  end 
+
+end 
