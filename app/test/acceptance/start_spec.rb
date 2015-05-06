@@ -8,8 +8,14 @@ describe('Start page', :type => :feature) do
     visit '/'
   end
 
-  it 'should display the login element' do 
-    expect( Loginpage.test ).to eq 'test'
+  describe('Loginpage') do 
+    before do 
+      @loginpage = Loginpage.new(page)
+    end
+
+    it 'should allow the user to login' do
+      expect( @loginpage ).to be_loginable
+    end
   end
 
 end
