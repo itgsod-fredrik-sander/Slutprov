@@ -1,7 +1,4 @@
-class Loginpage
-  def initialize(page)
-    @page = page
-  end
+class Loginpage < Abstractpage
 
   def loginable?
     login_availability
