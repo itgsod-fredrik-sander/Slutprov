@@ -1,17 +1,17 @@
 class Homepage < Abstractpage
-  def has_navbar?
+  def contains_navbar?
     @page.has_css? '#navbar'
   end
 
-  def has_header?
+  def contains_header?
     @page.has_css? '#header'
   end
 
-  def has_features?
+  def contains_features?
     @page.has_features? '#features'
   end
 
   def continueable?
-    @page.click_link 'View musts'
+    @page.has_content? 'View musts'
   end
 end

@@ -6,9 +6,25 @@ describe('Homepage', :type => :feature) do
     DataMapper.auto_migrate!
     Seed.seed
     visit '/'
+    @loginpage = Loginpage.new(page)
+    @loginpage.loginable?
+    @homepage = Homepage.new(page)
   end
 
-  describe('Homepage') do 
+  it 'should contain a navbar' do 
+    expect( @homepage.contains_navbar? ).to be true
+  end
+
+  it 'should contain a header' do 
+    expect( @homepage.contains_header? ).to be true
+  end
+
+  it 'should contain features' do 
+    expect( @homepage.contains_header? ).to be true
+  end
+
+  it 'should be continueable' do 
+    expect( @homepage ).to be_continueable
   end
 
 end

@@ -6,16 +6,11 @@ describe('Loginpage', :type => :feature) do
     DataMapper.auto_migrate!
     Seed.seed
     visit '/'
+    @loginpage = Loginpage.new(page)
   end
 
-  describe('Loginpage') do 
-    before do 
-      @loginpage = Loginpage.new(page)
-    end
-
-    it 'should allow the user to login' do
-      expect( @loginpage ).to be_loginable
-    end
+  it 'should allow the user to login' do
+    expect( @loginpage ).to be_loginable
   end
 
 end
