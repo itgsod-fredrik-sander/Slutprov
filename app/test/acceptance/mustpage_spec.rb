@@ -23,6 +23,7 @@ describe('Mustpage', :type => :feature) do
   it 'should display correct comments' do 
     expect( @mustpage.displaying_comment? 'Ok taste').to be true 
     expect( @mustpage.displaying_comment? 'Welcoming').to be true
+    expect( @mustpage.displaying_comment? 'Testy').to be false
   end
 
   it 'should display the correct location of origin' do 
