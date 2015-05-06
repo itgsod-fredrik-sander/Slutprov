@@ -14,4 +14,8 @@ class Homepage < Abstractpage
   def continueable?
     @page.has_content? 'View musts'
   end
-end
+
+  def continue
+    @page.click_link 'View musts'
+  end
+end 
