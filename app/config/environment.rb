@@ -1,5 +1,6 @@
 # Load all models
 Dir["./models/*.rb"].each {|model| require model}
+Dir["./test/pageobjects/*.rb"].each {|pageobject| require pageobject}
 
 # Used during local development (on your own machine)
 configure :development do
