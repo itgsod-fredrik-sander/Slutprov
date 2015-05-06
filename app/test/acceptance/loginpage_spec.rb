@@ -1,6 +1,6 @@
 require_relative 'acceptance_helper'
 
-describe('Start page', :type => :feature) do
+describe('Loginpage', :type => :feature) do
 
   before do
     DataMapper.auto_migrate!
