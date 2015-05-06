@@ -1,0 +1,3 @@
+class Mustpage < Abstractpage
+
+end
