@@ -17,12 +17,12 @@ describe('Mustspage', :type => :feature) do
     expect( @mustspage ).to be_containing_musts
   end
 
-  it 'should be searchable', :driver => :selenium do 
-    expect( @mustspage ).to be_searchable
-  end
+  #it 'should be searchable', :driver => :selenium do 
+  #  expect( @mustspage ).to be_searchable
+  #end
 
-  it 'should redirect to different musts', :driver => :selenium do
-    expect( @mustspage ).to be_redirecting_to_musts
-  end 
+  #it 'should redirect to different musts', :driver => :selenium do
+  #  expect( @mustspage ).to be_redirecting_to_musts
+  #end 
 
 end 
