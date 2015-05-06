@@ -41,4 +41,13 @@ describe('Mustpage', :type => :feature) do
     expect( @mustpage.contains_package? 'Bottle' ).to be true
   end
 
+  it 'should be able to post a new review', :driver => :selenium do 
+    expect( @mustpage ).to be_postable
+  end
+
+  it 'should display the new review', :driver => :selenium do 
+    visit '/must/1'
+    expect( @mustpage.displaying_comment_amount? 5 ).to be true 
+  end
+
 end 

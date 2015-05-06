@@ -26,4 +26,15 @@ class Mustpage < Abstractpage
   def contains_package?(package)
     @page.has_content? package
   end
+
+  def postable?
+    @page.find('#review-toggler').click
+    @page.fill_in('title', :with => 'test')
+    @page.fill_in('content', :with => 'A good post is meaningful')
+    @page.select('1', :from => 'rating' )
+    @page.click_button 'Submit'
+
+    return true
+  end
+
 end
